@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "euler",
+  "version": "0.1.0",
+  "description": "Euler, a DSA interviewer for Claude Code",
+  "owner": {
+    "name": "Kavya Goyal",
+    "email": "kavya24goyal@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "euler",
+      "description": "A DSA interviewer: asks for a topic, difficulty and language, runs a mock interview without ever helping you solve the problem, and gives a debrief at the end",
+      "version": "0.1.0",
+      "author": {
+        "name": "Kavya Goyal",
+        "email": "kavya24goyal@gmail.com"
+      },
+      "source": "./plugins/euler",
+      "category": "learning"
+    }
+  ]
+}

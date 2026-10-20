@@ -1,0 +1,16 @@
+{
+  "description": "Blocks tools that could help the candidate while an Euler interview is active",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/interview_guard.py"
+          }
+        ]
+      }
+    ]
+  }
+}

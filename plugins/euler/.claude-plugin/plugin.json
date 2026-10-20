@@ -1,0 +1,9 @@
+{
+  "name": "euler",
+  "version": "0.1.0",
+  "description": "Euler, a DSA interviewer: asks for a topic, difficulty and language, runs a mock interview without ever helping you solve the problem, and gives a debrief at the end",
+  "author": {
+    "name": "Kavya Goyal",
+    "email": "kavya24goyal@gmail.com"
+  }
+}
